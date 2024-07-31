@@ -3,7 +3,7 @@ const Header = () => {
   return (
     <header className="flex flex-col lg:flex-row justify-between items-center p-4 bg-black text-white">
       <div className="flex items-center space-x-4">
-        <div className="text-2xl font-bold text-[#F3AE9F]">Logo</div>
+        <div className="text-2xl font-bold text-[#F3AE9F]">Neo Chat</div>
         <span className="text-3xl font-extralight hidden lg:inline">|</span>
         <nav className="flex items-center space-x-4 mt-4 lg:mt-0">
           <a href="#" className="text-white inline hover:text-[#F3AE9F]">

@@ -40,3 +40,72 @@
 .read-the-docs {
   color: #888;
 }
+
+
+/* New CSS */
+
+/* App.css or index.css */
+.chat-window {
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+}
+
+.messages {
+  flex: 1;
+  padding: 10px;
+  overflow-y: auto;
+  background-color: #1a1a1a;
+}
+
+.message {
+  margin-bottom: 10px;
+  padding: 10px;
+  border-radius: 5px;
+  max-width: 70%;
+  word-wrap: break-word;
+}
+
+.message.sent {
+  align-self: flex-end;
+  background-color: #4a90e2;
+  color: #fff;
+}
+
+.message.received {
+  align-self: flex-start;
+  background-color: #e5e5ea;
+  color: #000;
+}
+
+.typing-indicator {
+  font-style: italic;
+  color: #aaa;
+}
+
+.input-area {
+  display: flex;
+  padding: 10px;
+  background-color: #333;
+}
+
+.input-area input {
+  flex: 1;
+  padding: 10px;
+  border: none;
+  border-radius: 5px;
+  margin-right: 10px;
+}
+
+.input-area button {
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  background-color: #4a90e2;
+  color: #fff;
+  cursor: pointer;
+}
+
+.input-area button:hover {
+  background-color: #357ab8;
+}
